@@ -55,14 +55,14 @@ const DesktopScene = ({
       }}
     >
       {/* ИКОНКИ (Зоны клика) */}
-      <div
+       <div
         className="icon-zone"
-        style={{ top: "8%", left: "42%", width: "8%", height: "12%" }}
+        style={{ top: "5%", left: "42%", width: "8%", height: "12%" }}
         onClick={() => setActiveWindow("profile")}
       ></div>
       <div
         className="icon-zone"
-        style={{ top: "8%", left: "52%", width: "8%", height: "12%" }}
+        style={{ top: "5%", left: "52%", width: "8%", height: "12%" }}
         onClick={() => setActiveWindow("register")}
       ></div>
 
@@ -73,7 +73,7 @@ const DesktopScene = ({
       ></div>
       <div
         className="icon-zone"
-        style={{ top: "8%", left: "32%", width: "8%", height: "12%" }}
+        style={{ top: "5%", left: "32%", width: "8%", height: "12%" }}
         onClick={() => setActiveWindow("video")}
       ></div>
       <div
@@ -81,7 +81,6 @@ const DesktopScene = ({
         style={{ bottom: "68%", left: "42%", width: "8%", height: "10%" }}
         onClick={() => setScene("room")}
       ></div>
-
       {activeWindow === "register" && (
         <div className="window" style={{ width: "320px" }}>
           <div className="window-header">
